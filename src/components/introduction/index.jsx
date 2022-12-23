@@ -3,7 +3,7 @@ import './intro.css'
 
 const Introduction = () => {
   return (
-    <div className='intro-section' data-aos="fade-up-left">
+    <div className='intro-section' data-aos="fade-up">
         <h1>
             Introduction
         </h1>
