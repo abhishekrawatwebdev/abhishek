@@ -1,0 +1,21 @@
+.tools-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.tools-inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carousel-item {
+    padding: 10px 20px;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 52px;
+
+}

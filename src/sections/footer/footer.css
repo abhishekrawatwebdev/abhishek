@@ -1,0 +1,65 @@
+.footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.footer-mail a h4 {
+
+    font-family: 'Oleo Script',
+        cursive;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-mail a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.reach {
+    margin-top: 30px;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img-text {
+    height: 50px;
+    width: auto;
+    margin: auto;
+    display: flex;
+
+}
+
+.social-icon a img {
+    height: 40px;
+    width: auto;
+    margin: 20px 20px 10px 20px;
+}
+
+#map {
+    margin-top: 20px;
+    height: 250px;
+    width: 300px;
+    height: fit-content;
+    border-radius: 10%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+.about-section {
+    padding: 30px 24px;
+}
+
+.extra {
+    height: 100vh;
+    width: 100%;
+}
+
+.section-heading {
+    display: block;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.about-heading {
+    color: var(--white);
+    text-align: center;
+
+}
+
+.section-top-heading {
+    font-family: var(--section-font);
+
+}
+
+.section-top-heading::before {
+    content: "<";
+    color: var(--white);
+}
+
+.section-top-heading::after {
+    content: "/>";
+    color: var(--white);
+}

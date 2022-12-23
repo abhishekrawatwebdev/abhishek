@@ -1,0 +1,8 @@
+.intro-section,
+p {
+    color: var(--white);
+}
+
+.intro-section h1 {
+    color: var(--light-blue);
+}

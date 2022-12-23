@@ -1,0 +1,38 @@
+.blob-section {
+    animation: updown 5s infinite alternate linear;
+    margin: 15px 0;
+    flex: 0.5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+.blob-image {
+    height: 250px;
+    width: auto;
+    background: #9CECFB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 50%;
+    border: 8px solid var(--white);
+
+}
