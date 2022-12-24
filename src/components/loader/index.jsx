@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './loader.css'
 const Loader = () => {
     let index = 0;
@@ -16,11 +16,11 @@ const Loader = () => {
             name:"Hola!"
         }
     ]
-    useEffect(()=>{
-        setInterval(()=>{
-            index=index+1;
-        },1000)
-    },[index])
+    // useEffect(()=>{
+    //     setInterval(()=>{
+    //         index=index+1;
+    //     },1000)
+    // },[index])
   return (
     <div className='loader'>
        <h3> {loaderData[index].name}</h3>
