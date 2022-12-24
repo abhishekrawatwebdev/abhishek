@@ -35,7 +35,10 @@ a {
 body {
     background-color: var(--dark-green);
     font-family: var(--text-font);
-    scroll-behavior: smooth;
     width: 100vw;
     overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }

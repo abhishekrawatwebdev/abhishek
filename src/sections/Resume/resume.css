@@ -2,6 +2,12 @@
     padding: 30px 20px;
 }
 
+.work-education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .timelines-heading {
     color: white;
     margin-bottom: 20px;

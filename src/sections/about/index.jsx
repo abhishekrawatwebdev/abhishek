@@ -6,9 +6,8 @@ import './about.css'
 const About = () => {
   return (
    <>
-   <div className="extra">efw</div>
     <div className='about-section'>
-   <h2 className='section-heading about-heading section-top-heading'>About</h2>
+   <h2 className='section-heading about-heading section-top-heading' data-aos="fade-up">About</h2>
    <div className="flex">
     <Blob/>
     <Introduction/>

@@ -3,8 +3,6 @@ import Timeline from '../timeline';
 import './education.css';
 import EducationData from '../../data/EducationData';
 const EducationSection = () => {
-   
-
   return (
     <div className='education-section' data-aos="fade-up">
         <h2 className='timelines-heading'>Education</h2>

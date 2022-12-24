@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div className='resume-section'>
       <h2 className="text-center section-top-heading section-heading" data-aos="fade-up">Resume</h2>
-      <div className="flex work-education">
+      <div className="work-education">
         <WorkExperience/>
         <EducationSection/>
       </div>
