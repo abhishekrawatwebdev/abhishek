@@ -7,7 +7,7 @@ import github from '../../assets/github.svg'
 const Footer = () => {
   return (
     <>
-    <h2 className='text-center reach' >Reach Out to Me</h2>
+    <h2 className='text-center reach'data-aos="fade-up" >Reach Out to Me</h2>
       <div className='footer'>
         
        <div data-aos="fade-up">
@@ -44,7 +44,7 @@ const Footer = () => {
     </div>
     <p style={{color:'white',textAlign:'center',margin:'40px 0'}}>
         Designed, Built by Abhishek Rawat <br />
-           With &copy; in Shahjahanpur
+           With &#9749; in Shahjahanpur
     </p>
     </>
   

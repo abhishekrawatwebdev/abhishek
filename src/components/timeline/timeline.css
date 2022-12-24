@@ -1,0 +1,41 @@
+.timeline {
+    height: fit-content;
+    padding-left: 20px;
+    border-left: 2px solid var(--light-blue);
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.timeline::before {
+    background-color: var(--dark-green);
+    position: absolute;
+    top: 0;
+    left: -14px;
+    content: " ";
+    border: 2px solid var(--light-blue);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+}
+
+.timeline-heading {
+    color: white;
+    font-size: 18px;
+}
+
+.timeline-description {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.timeline-title {
+    background-color: var(--light-blue);
+    color: var(--dark-green);
+    text-align: center;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 5px 10px;
+    max-width: 369px;
+}

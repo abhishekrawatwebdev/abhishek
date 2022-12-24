@@ -15,4 +15,5 @@
 .tools-desc {
     text-align: center;
     margin-bottom: 20px;
+    color: var(--dark-green);
 }
