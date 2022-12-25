@@ -1,29 +1,24 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './loader.css'
 const Loader = () => {
-    let index = 0;
+    let index = useRef(0);
    const loaderData=[
         {
-            name:"Hello!"
+            greet:"Hello!"
         },
         {
-            name:"नमस्ते"
+            greet:"नमस्ते"
         },
         {
-            name:"Bonjour!"
+            greet:"Bonjour!"
         },
         {
-            name:"Hola!"
+            greet:"Hola!"
         }
     ]
-    // useEffect(()=>{
-    //     setInterval(()=>{
-    //         index=index+1;
-    //     },1000)
-    // },[index])
   return (
     <div className='loader'>
-       <h3> {loaderData[index].name}</h3>
+       <h3 className='loader-greet'> {loaderData[index.current].greet}</h3>
     </div>
   )
 }

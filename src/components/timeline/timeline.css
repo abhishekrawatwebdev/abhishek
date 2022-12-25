@@ -30,6 +30,10 @@
     font-weight: normal;
 }
 
+.timeline-timespan {
+    color: white;
+}
+
 .timeline-title {
     background-color: var(--light-blue);
     color: var(--dark-green);

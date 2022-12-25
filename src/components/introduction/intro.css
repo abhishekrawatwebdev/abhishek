@@ -1,8 +1,20 @@
-.intro-section,
-p {
+.intro-section p {
     color: var(--white);
+    white-space: pre-wrap;
 }
 
 .intro-section h1 {
     color: var(--light-blue);
+}
+
+.intro-section {
+    width: 50%;
+}
+
+
+@media screen and (max-width:630px) {
+    .intro-section {
+        width: 100%;
+    }
+
 }

@@ -6,7 +6,7 @@ const Timeline = (props) => {
         <div className="timeline">
             <h3 className="timeline-heading">{props.heading}</h3>
             <div className="timeline-description">
-                <p>{props.timespan}</p>
+                <p className='timeline-timespan'>{props.timespan}</p>
                 <p className="timeline-title">{props.title}</p>
             </div>
         </div>

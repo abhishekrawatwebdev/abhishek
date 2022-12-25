@@ -1,7 +1,7 @@
 .blob-section {
     animation: updown 5s infinite alternate linear;
     margin: 15px 0;
-    flex: 0.5;
+    width: 50%;
     align-items: center;
     display: flex;
     justify-content: center;

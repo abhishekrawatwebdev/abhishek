@@ -7,13 +7,15 @@ import Resume from './sections/Resume';
 import ToolsSection from './sections/tools_section';
 import Loader from './components/loader';
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     if (document.readyState === 'loading') {
       setIsLoading(true)
     }
     else {
-      setIsLoading(false)
+      setTimeout(() => {
+        setIsLoading(false)
+      }, 2000)
     }
   }, [])
   return (
