@@ -16,7 +16,6 @@ window.addEventListener('scroll', () => {
     mountains.style.top= value * 0.1 + '%';
     name.style.top= nameTop + value * 0.3 + '%';
     domain.style.top= domainTop + value * 0.3 + '%';
-    console.clear();
 })
 },[]);
 
