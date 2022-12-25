@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react'
-import './landing.css'
+import Navbar from '../../components/navbar';
+import './landing.css';
+import linkedin from '../../assets/linkedin.svg'
+import instagram from '../../assets/instagram.svg'
+import github from '../../assets/github.svg'
 
 const Landing = () => {
     const scrollingEffect=()=>{
@@ -12,6 +16,12 @@ const Landing = () => {
     mountains.style.top= value * 0.1 + '%';
     name.style.top= nameTop + value * 0.3 + '%';
     domain.style.top= domainTop + value * 0.3 + '%';
+    if(value>200){
+        document.getElementsByClassName('navbar')[0].style.backgroundColor="var(--dark-green)"
+    }
+    else{
+        document.getElementsByClassName('navbar')[0].style.backgroundColor="transparent"
+    }
     }
     useEffect(()=>{
         document.addEventListener('scroll', scrollingEffect,{passive: true});
@@ -22,6 +32,27 @@ const Landing = () => {
   return (
     <>
     <div className='landing-section'>
+        <Navbar/>
+        <div className="landing-mail">
+            <a href="mailto:abhishekrawatdingding@gmail.com"><p>abhishekrawatdingding@gmail.com</p></a>
+        </div>
+         <div className="footer-social-icons landing-icons">
+            <div className="social-icon">
+                <a href="https://www.linkedin.com/in/abhishek-rawat-76b815219/">
+                    <img src={linkedin} alt="linkedin" />
+                </a>
+            </div>
+            <div className="social-icon">
+                <a href="https://www.instagram.com/abhishekrawat_ding_ding/">
+                    <img src={instagram} alt="instagram" />
+                </a>
+            </div>
+            <div className="social-icon">
+                <a href="https://github.com/abhishekrawatwebdev">
+                    <img src={github} alt="github" />
+                </a>
+            </div>
+        </div>
         <div className="back-mountains">
         </div>
         <div className="front-man">

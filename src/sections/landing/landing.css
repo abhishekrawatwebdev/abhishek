@@ -73,8 +73,40 @@
     align-items: center;
 }
 
+.landing-mail {
+    position: absolute;
+    z-index: 4;
+    font-family: 'Oleo Script',
+        cursive;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 2px;
+    transform: translate(20px, -50%);
+}
+
+.landing-icons {
+    position: absolute;
+    z-index: 4;
+    right: 0;
+    flex-direction: column;
+    bottom: 0;
+    transform: translate(-12%, -60%);
+}
+
+.landing-mail a {
+    color: white;
+    text-decoration: none;
+}
 
 @media screen and (max-width:530px) {
+    .landing-mail {
+        display: none;
+    }
+
     .landing-name {
         font-size: 9.5vw;
     }

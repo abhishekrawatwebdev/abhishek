@@ -1,0 +1,16 @@
+.navbar {
+    height: fit-content;
+    width: 100%;
+    padding: 15px 24px;
+    position: fixed;
+    background: transparent;
+    z-index: 4;
+    top: 0;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+
+.logo {
+    height: 36px;
+    width: auto;
+}

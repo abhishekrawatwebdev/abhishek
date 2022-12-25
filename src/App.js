@@ -21,11 +21,14 @@ function App() {
   return (
     <>
       {
-        isLoading ? <Loader /> : <><Landing />
-          <About />
-          <ToolsSection />
-          <Resume />
-          <Footer /></>
+        isLoading ? <Loader /> :
+          <>
+            <Landing />
+            <About />
+            <ToolsSection />
+            <Resume />
+            <Footer />
+          </>
       }
 
     </>
