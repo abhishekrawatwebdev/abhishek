@@ -57,10 +57,10 @@ const Landing = () => {
         </div>
         <div className="front-man">
         </div>
-        <div className="my-name" data-aos="flip-up" data-aos-duration="1100">
+        <div className="my-name" data-aos="fade-up" data-aos-duration="1100">
             <p className="landing-name">Abhishek Rawat</p>
         </div>
-        <div className="my-domain" data-aos="flip-up" data-aos-duration="1100">
+        <div className="my-domain" data-aos="fade-up" data-aos-duration="1100">
             <p className="landing-domain">Frontend Developer</p>
         </div>
     </div>
