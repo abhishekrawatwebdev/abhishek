@@ -1,24 +1,14 @@
-import React,{useRef} from 'react'
+import React, { useEffect, useRef } from 'react'
 import './loader.css'
+import Hello from '../../assets/Hello.mp4'
 const Loader = () => {
-    let index = useRef(0);
-   const loaderData=[
-        {
-            greet:"Hello!"
-        },
-        {
-            greet:"नमस्ते"
-        },
-        {
-            greet:"Bonjour!"
-        },
-        {
-            greet:"Hola!"
-        }
-    ]
+    const vidref = useRef();
+    useEffect(()=>{
+        vidref.current.play();
+    },[])
   return (
     <div className='loader'>
-       <h3 className='loader-greet'> {loaderData[index.current].greet}</h3>
+        <video src={Hello} className="greet" ref={vidref} autoPlay loop muted></video>
     </div>
   )
 }

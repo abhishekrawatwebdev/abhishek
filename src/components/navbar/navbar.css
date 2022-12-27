@@ -4,7 +4,7 @@
     padding: 15px 24px;
     position: fixed;
     background: transparent;
-    z-index: 4;
+    z-index: 5;
     top: 0;
     overflow: hidden;
     transition: 0.5s all ease;
