@@ -7,7 +7,7 @@ const ToolsUsed = () => {
       <div className="tools-inner">
  {getTools.map((tool)=>{
              return(
-                <div className="carousel-item" key={tool.toolName}>
+                <div className="carousel-item" data-aos="fade-up" key={tool.toolName}>
                 <img src={tool.toolImg} alt={tool.toolName} />
         </div>
              )

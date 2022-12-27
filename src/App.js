@@ -6,6 +6,7 @@ import Landing from './sections/landing';
 import Resume from './sections/Resume';
 import ToolsSection from './sections/tools_section';
 import Loader from './components/loader';
+import TechSection from './sections/tech_sections';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
           <>
             <Landing />
             <About />
+            <TechSection />
             <ToolsSection />
             <Resume />
             <Footer />
