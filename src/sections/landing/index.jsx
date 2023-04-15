@@ -61,7 +61,7 @@ const Landing = () => {
             <p className="landing-name">Abhishek Rawat</p>
         </div>
         <div className="my-domain" data-aos="fade-up" data-aos-duration="1100">
-            <p className="landing-domain">Frontend Developer</p>
+            <p className="landing-domain">Full Stack Developer</p>
         </div>
     </div>
     

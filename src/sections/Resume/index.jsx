@@ -11,7 +11,7 @@ const Resume = () => {
         <EducationSection/>
       </div>
       <div className="flex">
-        <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1I7NtbPqG2Y3gdRiYQqN4djh43SppOSZK/view?usp=sharing" className='viewCV-btn'>View CV</a>
+        <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1SN3MPN3lm4-Bh7Nt1K1tUV79UXoueYGP/view?usp=share_link" className='viewCV-btn'>View CV</a>
       </div>
     </div>
   )

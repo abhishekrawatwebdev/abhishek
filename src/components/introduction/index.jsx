@@ -10,8 +10,7 @@ const Introduction = () => {
         <p>
             I am a tech enthusiast, foodie, loves to 
             draw portraits and a sports enthusiast.
-            Professionally I am a front-end developer 
-            and learning backend technologies.
+            Professionally I am a front-end focused full stack developer.
             I'm quiet confident, and working
             on improving my development techniques
             and also a little bit on designing.I'm a self
