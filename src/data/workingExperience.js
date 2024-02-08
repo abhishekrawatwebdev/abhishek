@@ -1,5 +1,10 @@
 const WorkExperienceDAta = [
     {
+        heading: "Full Time, Growpital",
+        timespan: "August 2023 - present",
+        title: "Full Stack Developer",
+    },
+    {
         heading: "Internship, Growpital",
         timespan: "September 2022 - present",
         title: "Frontend Developer",
