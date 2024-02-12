@@ -34,7 +34,7 @@ const Landing = () => {
     <div className='landing-section'>
         <Navbar/>
         <div className="landing-mail">
-            <a href="mailto:abhishekrawatdingding@gmail.com"><p>abhishekrawatdingding@gmail.com</p></a>
+            <a href="mailto:abhishekrawat9956088862@gmail.com"><p>abhishekrawat9956088862@gmail.com</p></a>
         </div>
          <div className="footer-social-icons landing-icons">
             <div className="social-icon">
