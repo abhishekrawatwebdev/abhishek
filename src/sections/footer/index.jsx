@@ -31,13 +31,13 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer-mail">
-            <a href="mailto:abhishekrawatdingding@gmail.com"><h4>abhishekrawatdingding@gmail.com</h4></a>
+            <a href="mailto:abhishekrawat9956088862@gmail.com"><h4>abhishekrawat9956088862@gmail.com</h4></a>
             
         </div>
        </div>
        <div>
         <div id="map" data-aos="fade-up">
-            <iframe title="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d112841.01642269445!2d79.90806480000003!3d27.8933255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1671755676924!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224568.3607885405!2d76.82493778525728!3d28.422858324744166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1707741310768!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
        </div>
 
