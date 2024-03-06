@@ -1,16 +1,27 @@
 const WorkExperienceDAta = [
     {
         heading: "Full Time, Growpital",
-        timespan: "September 2022 - present",
+        timespan: "May 2023 - present",
         title: "Full Stack Developer",
     },
     {
-        heading: "Internship, KGS Fintech Pvt. Ltd. (Capitall)",
-        timespan: "January 2022 - March 2022",
+        heading: "Internship, Agile RecruiTech LLP",
+        timespan: "Oct 2022 - Apr 2023",
         title: "Frontend Developer",
-    }, {
+    },
+    {
+        heading: "Internship, KGS Fintech Pvt. Ltd. (Capitall)",
+        timespan: "Dec 2021 - May 2022",
+        title: "Frontend Developer",
+    },
+    {
         heading: "Internship, Marstech",
-        timespan: "October 2021 - December 2021",
+        timespan: "May 2021 - Oct 2021",
+        title: "Frontend Developer",
+    },
+    {
+        heading: "Internship, Aiesys Pvt. Ltd.",
+        timespan: "Jan 2021 - Mar 2021",
         title: "Frontend Developer",
     }
 ]
