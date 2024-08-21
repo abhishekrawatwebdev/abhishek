@@ -1,7 +1,12 @@
 const WorkExperienceDAta = [
     {
+        heading: "Full Time, Zithara.AI",
+        timespan: "May 2024 - present",
+        title: "Full Stack Developer",
+    },
+    {
         heading: "Full Time, Growpital",
-        timespan: "May 2023 - present",
+        timespan: "May 2023 - May 2024",
         title: "Full Stack Developer",
     },
     {
